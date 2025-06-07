@@ -841,57 +841,73 @@
 
 
 
-<!-- Font Awesome (caso ainda não tenha incluído) -->
+ <!-- Font Awesome (ícone do cadeado) -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-<section style="background-color: #0d0d0d; padding: 60px 20px 100px 20px; font-family: 'Poppins', sans-serif; color: #fff;">
-  <h2 style="font-size: 2rem; margin-bottom: 30px; color: #00faff; text-align: center;">
+<section style="background-color: #0d0d0d; padding: 60px 20px 80px 20px; font-family: 'Poppins', sans-serif; color: #fff;">
+  <h2 style="font-size: 2rem; margin-bottom: 20px; color: #00faff; text-align: center;">
     <strong>A mudança começa aqui...</strong>
   </h2>
 
-  <h2 style="font-size: 1rem; margin-bottom: 30px; color: #c0c0c0; text-align: center;">
-    <p>Tudo o que você precisa para alcançar a mentalidade de sucesso está aqui... Ah e tem mais, MUITO MAIS.</p>
-  </h2>
+  <p style="font-size: 1rem; margin-bottom: 40px; color: #c0c0c0; text-align: center;">
+    Cada módulo foi feito pra esculpir sua melhor versão. Desbloqueie e avance no seu renascimento.
+  </p>
 
-  <div style="display: flex; justify-content: center; overflow-x: auto; gap: 20px; padding-bottom: 20px; scroll-snap-type: x mandatory;">
+  <div style="display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 16px; padding-bottom: 10px; justify-content: flex-start;">
     
-    <!-- CAPÍTULO 1 -->
-    <div style="min-width: 260px; max-width: 260px; background: #111; border-radius: 12px; padding: 20px; text-align: center; scroll-snap-align: start; box-shadow: 0 0 25px rgba(0,255,255,0.1); transition: 0.3s;">
-      <i class="fas fa-unlock-alt" style="font-size: 36px; margin-bottom: 15px; color: #00faff;"></i>
-      <h3 style="font-size: 18px; margin-bottom: 10px;">Capítulo 1: O que te mantém preso</h3>
-      <p style="font-size: 14px; color: #ccc;">Descubra os sabotadores invisíveis que drenam sua força de vontade.</p>
+    <!-- Container responsivo de cada módulo -->
+    <div style="flex: 0 0 auto; width: 45vw; max-width: 200px; scroll-snap-align: start; position: relative;">
+      <img src="modulo1.png" alt="Módulo 1" style="width: 100%; border-radius: 10px; height: auto; box-shadow: 0 0 20px box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
     </div>
 
-    <!-- CAPÍTULO 2 -->
-    <div style="min-width: 260px; max-width: 260px; background: #111; border-radius: 12px; padding: 20px; text-align: center; scroll-snap-align: start; box-shadow: 0 0 25px rgba(0,255,255,0.1); transition: 0.3s;">
-      <i class="fas fa-brain" style="font-size: 36px; margin-bottom: 15px; color: #00faff;"></i>
-      <h3 style="font-size: 18px; margin-bottom: 10px;">Capítulo 2: Mente Indestrutível</h3>
-      <p style="font-size: 14px; color: #ccc;">Reprograme sua mente pra ser imune ao caos moderno.</p>
+    <div style="flex: 0 0 auto; width: 45vw; max-width: 200px; scroll-snap-align: start; position: relative;">
+      <img src="modulo2.png" alt="Módulo 2" style="width: 100%; border-radius: 10px; height: auto; box-shadow: 0 0 20px box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
     </div>
 
-    <!-- CAPÍTULO 3 - BLOQUEADO -->
-    <div style="min-width: 260px; max-width: 260px; background: #111; border-radius: 12px; padding: 20px; text-align: center; scroll-snap-align: start; filter: blur(4px) brightness(0.6); pointer-events: none; opacity: 0.5;">
-      <i class="fas fa-cogs" style="font-size: 36px; margin-bottom: 15px; color: #00faff;"></i>
-      <h3 style="font-size: 18px; margin-bottom: 10px;">Capítulo 3: Sistema Implacável</h3>
-      <p style="font-size: 14px;">Monte um ritual de vitória, sem margem pra desculpas.</p>
+    <!-- Módulos bloqueados (3 a 8) -->
+    <div style="flex: 0 0 auto; width: 45vw; max-width: 200px; scroll-snap-align: start; position: relative;">
+      <img src="modulo3.png" alt="Módulo 3" style="width: 100%; border-radius: 10px; filter: blur(3px) brightness(0.6); opacity: 0.5;">
+      <i class="fas fa-lock" style="position: absolute; top: 10px; right: 10px; color: #00faff; font-size: 18px;"></i>
     </div>
 
-    <!-- CAPÍTULO 4 - BLOQUEADO -->
-    <div style="min-width: 260px; max-width: 260px; background: #111; border-radius: 12px; padding: 20px; text-align: center; scroll-snap-align: start; filter: blur(4px) brightness(0.6); pointer-events: none; opacity: 0.5;">
-      <i class="fas fa-bolt" style="font-size: 36px; margin-bottom: 15px; color: #00faff;"></i>
-      <h3 style="font-size: 18px; margin-bottom: 10px;">Capítulo 4: Produtividade Máxima</h3>
-      <p style="font-size: 14px;">Pare de travar. Aprenda a agir com agressividade e foco.</p>
+    <div style="flex: 0 0 auto; width: 45vw; max-width: 200px; scroll-snap-align: start; position: relative;">
+      <img src="modulo4.png" alt="Módulo 4" style="width: 100%; border-radius: 10px; filter: blur(3px) brightness(0.6); opacity: 0.5;">
+      <i class="fas fa-lock" style="position: absolute; top: 10px; right: 10px; color: #00faff; font-size: 18px;"></i>
     </div>
 
-    <!-- CARD EXTRA - MAIS CAPÍTULOS -->
-    <div style="min-width: 260px; max-width: 260px; background: linear-gradient(135deg, #1a1a1a, #000); border-radius: 12px; padding: 20px; text-align: center; scroll-snap-align: start; display: flex; flex-direction: column; align-items: center; justify-content: center; opacity: 0.7; border: 2px dashed #00faff;">
-      <i class="fas fa-ellipsis-h" style="font-size: 36px; margin-bottom: 15px; color: #00faff;"></i>
-      <h3 style="font-size: 18px; margin-bottom: 10px;">Mais Capítulos</h3>
-      <p style="font-size: 14px; color: #ccc;">Conteúdo oculto. Desbloqueie para acessar os próximos níveis da transformação.</p>
+    <div style="flex: 0 0 auto; width: 45vw; max-width: 200px; scroll-snap-align: start; position: relative;">
+      <img src="modulo5.png" alt="Módulo 5" style="width: 100%; border-radius: 10px; filter: blur(3px) brightness(0.6); opacity: 0.5;">
+      <i class="fas fa-lock" style="position: absolute; top: 10px; right: 10px; color: #00faff; font-size: 18px;"></i>
     </div>
- 
+
+    <div style="flex: 0 0 auto; width: 45vw; max-width: 200px; scroll-snap-align: start; position: relative;">
+      <img src="modulo6.png" alt="Módulo 6" style="width: 100%; border-radius: 10px; filter: blur(3px) brightness(0.6); opacity: 0.5;">
+      <i class="fas fa-lock" style="position: absolute; top: 10px; right: 10px; color: #00faff; font-size: 18px;"></i>
+    </div>
+
+    <div style="flex: 0 0 auto; width: 45vw; max-width: 200px; scroll-snap-align: start; position: relative;">
+      <img src="modulo7.png" alt="Módulo 7" style="width: 100%; border-radius: 10px; filter: blur(3px) brightness(0.6); opacity: 0.5;">
+      <i class="fas fa-lock" style="position: absolute; top: 10px; right: 10px; color: #00faff; font-size: 18px;"></i>
+    </div>
+
+    <div style="flex: 0 0 auto; width: 45vw; max-width: 200px; scroll-snap-align: start; position: relative;">
+      <img src="modulo8.png" alt="Módulo 8" style="width: 100%; border-radius: 10px; filter: blur(3px) brightness(0.6); opacity: 0.5;">
+      <i class="fas fa-lock" style="position: absolute; top: 10px; right: 10px; color: #00faff; font-size: 18px;"></i>
+    </div>
+
   </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
